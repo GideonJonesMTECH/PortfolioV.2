@@ -9,8 +9,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 2em;
-  transition: ease-in-out 1s;
+  font-size: 1.5em;
 }
 header img {
   width: 4em;
@@ -21,7 +20,22 @@ header a {
 }
 header a:hover {
   color: #c0c0c0;
-  border-top: #c0c0c0 1px solid;
+  transition: ease-in-out 0.5s;
+}
+
+footer {
+  background-image: url("http://wallpapercave.com/wp/3wPVPxQ.jpg");
+  height: 125px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5em;
+  color: #f9f9f9;
 }
 
 /*# sourceMappingURL=headerFooter.css.map */
