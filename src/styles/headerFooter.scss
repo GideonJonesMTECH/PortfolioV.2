@@ -10,14 +10,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-size: 1.5em;
+  transition: ease-in-out 1s;
   img {
-    width: 8em;
+    width: 4em;
     height: auto;
   }
   a {
     color: colors.$gold;
     &:hover {
       color: colors.$silver;
+      border-top: colors.$silver 1px solid;
     }
   }
 }

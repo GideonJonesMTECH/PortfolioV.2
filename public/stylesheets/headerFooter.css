@@ -9,9 +9,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-size: 2em;
+  transition: ease-in-out 1s;
 }
 header img {
-  width: 8em;
+  width: 4em;
   height: auto;
 }
 header a {
@@ -19,6 +21,7 @@ header a {
 }
 header a:hover {
   color: #c0c0c0;
+  border-top: #c0c0c0 1px solid;
 }
 
 /*# sourceMappingURL=headerFooter.css.map */
