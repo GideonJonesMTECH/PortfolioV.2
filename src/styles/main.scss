@@ -1,3 +1,5 @@
+@use "colors";
+
 .Features {
   display: flex;
   justify-content: space-evenly;
@@ -27,13 +29,13 @@
       transition: 0.4s ease;
       background-image: linear-gradient(
         to bottom right,
-        #99ff00,
-        #07f0fc,
-        #0000ff
+        colors.$neon-green,
+        colors.$teal,
+        colors.$blue
       );
       .text {
-        color: slategray;
-        background-color: whitesmoke;
+        color: colors.$silver;
+        background-color: colors.$off-white;
         font-size: 24px;
         position: absolute;
         top: 50%;

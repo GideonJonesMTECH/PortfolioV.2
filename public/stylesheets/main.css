@@ -27,11 +27,11 @@
   width: 100%;
   opacity: 0;
   transition: 0.4s ease;
-  background-image: linear-gradient(to bottom right, #99ff00, #07f0fc, #0000ff);
+  background-image: linear-gradient(to bottom right, #99ff00, #00cdcd, #0000ff);
 }
 .Features .FeaturesImage .overlay .text {
-  color: slategray;
-  background-color: whitesmoke;
+  color: #c0c0c0;
+  background-color: #f9f9f9;
   font-size: 24px;
   position: absolute;
   top: 50%;
