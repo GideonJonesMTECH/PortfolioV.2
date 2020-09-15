@@ -1,0 +1,23 @@
+@use "colors";
+header {
+  background-image: url("http://wallpapercave.com/wp/3wPVPxQ.jpg");
+  height: 125px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  img {
+    width: 8em;
+    height: auto;
+  }
+  a {
+    color: colors.$gold;
+    &:hover {
+      color: colors.$silver;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.about {
+  display: flex;
+}
+.about .text {
+  padding: 25px;
+  font-size: 25px;
+}
+.about .image {
+  padding: 25px;
+}
+
+/*# sourceMappingURL=about.css.map */
