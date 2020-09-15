@@ -1,3 +1,15 @@
-
+ul li, ul li a {
+  display: flex;
+  flex-direction: row;
+  color: #00cdcd;
+  align-items: center;
+  font-size: 3em;
+}
+ul li a {
+  font-size: 1em;
+}
+ul li i {
+  padding: 15px;
+}
 
 /*# sourceMappingURL=contact.css.map */

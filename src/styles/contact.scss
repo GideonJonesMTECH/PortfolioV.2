@@ -1,0 +1,18 @@
+@use "colors";
+
+ul {
+  li {
+    display: flex;
+    flex-direction: row;
+    color: colors.$teal;
+    align-items: center;
+    font-size: 3em;
+    a {
+      @extend li;
+      font-size: 1em;
+    }
+    i {
+      padding: 15px;
+    }
+  }
+}
